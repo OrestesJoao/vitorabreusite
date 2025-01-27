@@ -675,9 +675,13 @@ footer{
 @media (max-width:520px) {
     .container-home{
         padding-inline: 6rem;
+        text-align: center;
     }
     .container-home-left{
         width: 320px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     .container-home-left p{
         width: 320px;
@@ -689,6 +693,14 @@ footer{
     }
     .picture-home-right{
         width: 250px;
+    }
+    .picture-about{
+        width: 226px;
+        height: 293px;
+    }
+    .logo-img{
+        width: 150px;
+        height: 36px;
     }
 }
 
